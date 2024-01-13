@@ -1,13 +1,137 @@
-body {
+
+body{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: lightgray;
+  box-sizing: border-box;
+  font-family:"Josefin Sans",sans-serif;
 }
 
 code {
+
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ *{
+  align-items:center ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.heading_style{
+
+  padding: 20px 0 5px;
+  text-align: center;
+  font-family: "raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(206, 176, 29);
+  background-color: #29709c;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  
+}
+dir{
+  align-items: center;
+  /* position: sticky; */
+}
+.card{
+  margin: 6%;
+ display: inline;
+  width: 21.25%;
+  border-radius: 12px;
+  float: left;
+  background-color: lightgray;
+  
+}
+
+.card_info{
+ 
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 5%;
+  
+ 
+}
+.cards{
+  margin-top: 4%;
+  flex-wrap: wrap;
+  min-width: 550px;
+  word-wrap: break-word;
+ 
+}
+
+.card_title{
+  margin-left: 4px;
+}
+
+.card:hover{
+  box-shadow: 0px 30px 18px -8px black;
+  transform: scale(1.05,1.05);
+  transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+  box-shadow: 0px 13px 10px -7px black;
+  
+}
+
+.card_img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 10%;
+  min-height:min-content;
+
+ 
+}
+button{
+  font-size: medium;
+  background-color: #25e4eb;
+  border: 0.5px solid brown;
+  border-radius: 5px;
+  padding: 5px;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  position:relative;
+  width: 80%;
+  margin-left: 10%;
+
+}
+button:hover{
+  background-color: #25e4eb;
+  
+  cursor: pointer;
+}
+button:active{
+  background-color: bisque;
+  border: 2px solid brown;
+}
+.btn{
+  align-items: center;
+  
+}
+
+.ButtonStyle{
+  width: 100%;
+  height: 100vh;
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+ 
 }

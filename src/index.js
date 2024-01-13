@@ -1,14 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import Chalenge from "./Chalenge";
 import reportWebVitals from './reportWebVitals';
+// import Accordiance from './Hooks/Accordiance/Accordiance';
+import Props from './Props';
+// import Events from './Events';
+// import Form from './Form';
+// import ComplexForm from './ComplexForm';
+// import TodoList from './TodoList/TodoList';
+// import Counter from './Inc_dec/Counter';
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    {/* <ComplexForm/> */}
+    {/* <TodoList/> */}
+   
+    {/* <Counter/> */}
+    <Props/>
+    {/* <Accordiance/> */}
+    
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
